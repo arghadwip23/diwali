@@ -1,6 +1,15 @@
 <?php
+function hexToStr($hex){
+    $string='';
+    for ($i=0; $i < strlen($hex)-1; $i+=2){
+        $string .= chr(hexdec($hex[$i].$hex[$i+1]));
+    }
+    return $string;
+}
+
+
 $rrc = $_GET['l4Tua'];
-$name = hex2bin($rrc);
+$name = hexToStr($rrc);
 
 ?>
 
@@ -49,7 +58,7 @@ $name = hex2bin($rrc);
  <img  src="dec.png" alt="" width="300" id="deco1"/>
 <h1>HAPPY <br /> Diwali</h1>
 <h5>from</h5>
-<h2><?php echo ($name); ?></h2>
+<h2><?php echo $name; ?></h2>
  </div> 
  <div class=" tex-center" id="small">
      <a href="index"><button class="btn btn-outline-danger">click here</button></a> <br />
