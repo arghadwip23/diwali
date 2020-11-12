@@ -1,5 +1,6 @@
 <?php
-$name = pack(H*$_GET['l4Tua']);
+$rrc = $_GET['l4Tua'];
+$name = pack(H*$rrc);
 
 ?>
 
@@ -48,7 +49,7 @@ $name = pack(H*$_GET['l4Tua']);
  <img  src="dec.png" alt="" width="300" id="deco1"/>
 <h1>HAPPY <br /> Diwali</h1>
 <h5>from</h5>
-<h2><?php echo $name ?></h2>
+<h2><?php echo ($name); ?></h2>
  </div> 
  <div class=" tex-center" id="small">
      <a href="index"><button class="btn btn-outline-danger">click here</button></a> <br />
