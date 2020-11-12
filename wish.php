@@ -1,6 +1,6 @@
 <?php
 $rrc = $_GET['l4Tua'];
-$name = pack("H*",$rrc);
+$name = hex2bin($rrc);
 
 ?>
 
