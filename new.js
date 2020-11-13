@@ -24,7 +24,7 @@ $(document).ready(function(){
      event.preventDefault(); 
   $('form').hide();
   var name = $('#name').val();
-  var value = name;
+  var value = encodeURI(name);
   var ur = "https://festivewish.herokuapp.com//wish?l4Tua='"+value+"'";
   var li = `a special massegge📧 waiting for you 
 click the link below👇👇 to see it
