@@ -58,7 +58,7 @@ $name = hexToStr($rrc);
  <img  src="dec.png" alt="" width="300" id="deco1"/>
 <h1>HAPPY <br /> Diwali</h1>
 <h5>from</h5>
-<h2><?php echo $name; ?></h2>
+<h2><?php echo $rrc; ?></h2>
  </div> 
  <div class=" tex-center" id="small">
      <a href="index"><button class="btn btn-outline-danger">click here</button></a> <br />
