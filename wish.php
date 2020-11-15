@@ -31,6 +31,8 @@ $name = hexToStr($rrc);
   <!-- font 
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Big+Shoulders+Inline+Text:wght@900&family=Merienda:wght@700&display=swap" rel="stylesheet">-->
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
@@ -56,7 +58,7 @@ $name = hexToStr($rrc);
 
  <div id="box"> 
  <img  src="dec.png" alt="" width="300" id="deco1"/>
-<h1>HAPPY <br /> Diwali</h1>
+<h1>শুভ <br /> ভাই ফোঁটা</h1>
 <h5>from</h5>
 <h2><?php echo $rrc; ?></h2>
  </div> 
