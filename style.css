@@ -29,7 +29,8 @@ body {
 
 #box h1 {
     font-family: "Galada";
-    font-size: 90px;
+    font-size: 80px;
+    font-weight:bold;
     color: #EDC7C700;
     background: linear-gradient(to right, #fec200, #f78608, #ee3711, #e6172f, #d20983, #c301c5);
     -webkit-background-clip: text;
