@@ -1,4 +1,4 @@
-[heading](https://source.unsplash.com/1600x900/?nature,water)
+![heading](https://source.unsplash.com/1600x900/?nature,water)
 # Wish Master
 > A web app to wish for festival 
 ***
