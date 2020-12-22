@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 `+ur;
 var send = encodeURI(li);
-  var link = `<div id='link' class='overflow-auto'><p class='text-center' id='text'>`+ur+`</p> <br><a href="whatsapp://send?text=`+send+`" data-action="share/whatsapp/share" class='btn btn-success mr-3'><i class='fab fa-whatsapp'></i></a><button id='con2' class='btn btn-primary'><i class='far fa-copy'></i></button>${test} <br /></div>`;
+  var link = `<div id='link' class='overflow-auto'><p class='text-center' id='text'>`+ur+`</p> <br><a href="whatsapp://send?text=`+send+`" data-action="share/whatsapp/share" class='btn btn-success mr-3'><i class='fab fa-whatsapp'></i></a><button id='con2' class='btn btn-primary'><i class='far fa-copy'></i></button></div>`;
   $('#con').append(link);
  $('#con2').click(function(){
      copyToClipboard('#text');
