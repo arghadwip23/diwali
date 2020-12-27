@@ -61,6 +61,7 @@ body {
 }
 #greet{
     font-family: "Courgette";
+    color:#000000;
 }
 #bodys img{
     position: fixed;
