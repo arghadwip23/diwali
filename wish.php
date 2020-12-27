@@ -7,7 +7,7 @@ $rrc = $_GET['l4Tua'];
 <head>
     <meta property="og:title" content="Something special">
     <meta property="og:description" content="Some surprise for you don't waste time let's open it">
-    <meta property="og:image" itemprop="image" content="https://www.wishingu.herokuapp.com/thumbnail.jpg">
+    <meta property="og:image" itemprop="image" content="https://www.wishingu.herokuapp.com/thumbnail.png">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,7 +66,7 @@ function b(hexav){
     }
     return arr1.join('');
 }
-let out = b('68gB110');
+let out = b('name');
 $('#greet').append(out);
 </script>
 </html>
