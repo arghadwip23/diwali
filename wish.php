@@ -67,7 +67,7 @@ function b(hexav){
     return arr1.join('');
 }
 let out = b('name');
-$('#greet').append(out);
+document.getElementById('greet').innerText=out;
 </script>
 </html>
 <script type="text/javascript" charset="utf-8" src="main.js">
