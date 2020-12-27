@@ -54,7 +54,7 @@ $rrc = $_GET['l4Tua'];
  </div>
 </body>
 <script type="text/javascript" charset="utf-8">
-   var name = '<?php echo $rrc; ?>';
+   var name = "'"+<?php echo $rrc; ?>+"'";
 function b(hexav){
     var arr1 = [];
     //var spl = hexav.match(/.{1,2}/g);
