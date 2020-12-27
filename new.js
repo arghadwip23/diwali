@@ -32,7 +32,7 @@ $(document).ready(function(){
   var name_b = name.replace(regx,"");
   var valueb = a(name_b);
   var value = encodeURI(valueb);
-  var ur = "https://wishu.herokuapp.com//wish?l4Tua="+value;
+  var ur = "https://wishingu.herokuapp.com//wish?l4Tua="+value;
   var li = `a special massegge📧 is sent by ${name} 
   
   click the link below👇👇 to see it
