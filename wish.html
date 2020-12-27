@@ -57,7 +57,8 @@ function b(hexav){
     var arr1 = [];
     //var spl = hexav.match(/.{1,2}/g);
     var spl = hexav.split("gB");
-    for (var n = 0, l = spl.length; n < l; n++)
+    var  l = spl.length; 
+    for (var n = 0; n < l; n++)
     {
         var hex = String.fromCharCode(spl[n]);
         arr1.push(hex);
