@@ -1,7 +1,3 @@
-<?php
-$rrc ="'". $_GET['l4Tua']."'";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +50,9 @@ $rrc ="'". $_GET['l4Tua']."'";
  </div>
 </body>
 <script type="text/javascript" charset="utf-8">
-   var name = <?php echo $rrc; ?>;
+   const queryString = window.location.search;
+   const urlParams = new URLSearchParams(queryString);
+   const name = urlParams.get('l4Tua');
 function b(hexav){
     var arr1 = [];
     //var spl = hexav.match(/.{1,2}/g);
