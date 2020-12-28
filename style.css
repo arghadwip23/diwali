@@ -62,6 +62,7 @@ body {
 #greet{
     font-family: "Courgette";
     color:#000000;
+    font-weight : bold;
 }
 #bodys img{
     position: fixed;
@@ -83,4 +84,8 @@ body {
 #new2{
     margin-top:-300px;
     margin-left:50%;
+}
+#gcon{
+    background: #42445A00;
+    border: none;
 }
