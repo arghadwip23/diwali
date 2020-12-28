@@ -71,6 +71,7 @@ body {
     width: 50%;
 }
 #ballon{
+    width : 45%;
     margin-top: 70vh;
 }
 #new{
@@ -84,7 +85,6 @@ body {
     border: none;
 }
 #new2{
-    margin-top:-300px;
     margin-left:50%;
 }
 #gcon{
