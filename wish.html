@@ -53,19 +53,7 @@
    const queryString = window.location.search;
    const urlParams = new URLSearchParams(queryString);
    const name = urlParams.get('l4Tua');
-function b(hexav){
-    var arr1 = [];
-    //var spl = hexav.match(/.{1,2}/g);
-    var spl = hexav.split("gB");
-    var  l = spl.length; 
-    for (var n = 0; n < l; n++)
-    {
-        var hex = String.fromCharCode(spl[n]);
-        arr1.push(hex);
-    }
-    return arr1.join('');
-}
-let out = b('name');
+let out = window.atob(name);
 $('#greet').append("-"+out);
 </script>
 </html>
