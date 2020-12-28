@@ -49,12 +49,12 @@ body {
 }
 #card {
     background: url('images.jpeg'),#FFFFFF;
-    width: 80%;
-    border: 2px groove #590E0E;
+    width: 90%;
+    border: 1px solid #590E0E;
+    box-shadow: 5px 5px 10px #6C6E70;
     font-style: italic;
     font-size: 21px;
     margin: 20px auto;
-    font-weight: bold;
     font-family: "Redressed";
     background-repeat: no-repeat;
    background-position:bottom;
@@ -63,6 +63,7 @@ body {
     font-family: "Courgette";
     color:#000000;
     font-weight : bold;
+    background : linear-gradient(to right,#FFFFFFC7,#FFFFFFC7);
 }
 #bodys img{
     position: fixed;
