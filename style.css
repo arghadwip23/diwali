@@ -43,7 +43,7 @@ body {
     display: none;
 }
 #bodys h1{
-    -webkit-text-stroke: .5px black;
+    -webkit-text-stroke: .3px black;
     color:#FF2156;
     font-family: "Frijole";
 }
@@ -57,12 +57,13 @@ body {
     margin: 20px auto;
     font-family: "Redressed";
     background-repeat: no-repeat;
-   background-position:bottom;
+   background-position:bottom right;
 }
 #greet{
     font-family: "Courgette";
     color:#000000;
     font-weight : bold;
+    display : inline-block;
     background : linear-gradient(to right,#FFFFFFC7,#FFFFFFC7);
 }
 #bodys img{
