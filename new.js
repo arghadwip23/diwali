@@ -16,7 +16,7 @@ $(document).ready(function(){
   var name = $('#name').val();
   var encode = window.btoa(name);
   var value = encodeURI(encode);
-  var ur = "https://arghadwip23.github.io/diwali/wish?l4Tua="+value;
+  var ur = "https://wishmaster.netlify.app/wish?l4Tua="+value;
   var li = `a special massegge📧 is sent by *${name}* 
   
   click the link below👇👇 to see it
